@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +46,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-white">Suon</span>
-          <span className="text-[#8245ec]"> </span>
+          <span className="text-primary"> </span>
           <span className="text-white">Ty</span>
         </div>
 
@@ -55,8 +55,8 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#8245ec] ${
-                activeSection === item.id ? "text-[#8245ec]" : ""
+              className={`cursor-pointer hover:text-primary ${
+                activeSection === item.id ? "text-primary" : ""
               }`}
             >
               <button onClick={() => handleMenuItemClick(item.id)}>
@@ -69,20 +69,12 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
           <a
-            href="https://github.com/codingmastr"
+            href="https://t.me/suonty"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
+            className="text-gray-300 hover:text-primary"
           >
-            <FaGithub size={24} />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/tarun-kaushik-553b441a4"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#8245ec]"
-          >
-            <FaLinkedin size={24} />
+            <FaTelegram size={24} />
           </a>
         </div>
 

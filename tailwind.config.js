@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+       colors: {
+        'primary':
+          "#D10000"
+      },
       keyframes: {
         blob: {
           '0%': { transform: 'scale(1)' },

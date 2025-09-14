@@ -39,7 +39,7 @@ import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
+import glaLogo from './assets/education_logo/primary-education.png';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
@@ -172,20 +172,18 @@ export const SkillsInfo = [
     {
       id: 0,
       img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
+      school: "Mean Chey Chas Primary School",
+      date: "2010 - 2013",
+      desc: "I have completed my Elementary School education at  Mean Chey Chas Primary School. During my time there, I built a strong foundation in subjects such as Mathematics, Science, English, and Social Studies. I also took part in creative activities like art, reading, and group projects, which helped me develop teamwork and communication skills. I actively participated in school events, games, and workshops that supported both my learning and personal growth. My experience in Elementary School has been important in shaping my curiosity, discipline, and love for learning. ",
+      degree: "Completed Primary Education",
     },
     {
       id: 1,
       img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
+      school: "Bun Rany Hun Sen Memot High School",
+      date: "2014 - 2019",
       desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
+      degree: "Graduated from High School",
     },
     {
       id: 2,
@@ -195,16 +193,7 @@ export const SkillsInfo = [
       grade: "78%",
       desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
       degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
+    }
   ];
   
   export const projects = [
