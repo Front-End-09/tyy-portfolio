@@ -190,7 +190,6 @@ export const SkillsInfo = [
       img: vpsLogo,
       school: "Vatsalya Public School Govardhan, Mathura",
       date: "Apr 2017 - March 2018",
-      grade: "78%",
       desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
       degree: "CBSE(XII) - PCM with Computer Science",
     }
